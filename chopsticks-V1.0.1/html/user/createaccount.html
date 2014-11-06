@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8"/>
+		<title>Chopsticks.co</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Loading Bootsrap -->
+		<link href="../dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Loading Flat UI -->
+		<link href="../dist/css/flat-ui-pro.css" rel="stylesheet">
+
+		<link rel="shortcut icon" href="../dist/img/favicon.ico">
+
+		<style>
+			/* teset purpose
+			 div {
+			 border: 1px solid red;
+			 }
+			 */
+
+			.navbar {
+				padding-top: 30px;
+				padding-bottom: 30px;
+			}
+			.row {
+				padding-top: 20px;
+			}
+
+			.input-group {
+				padding-bottom: 3px;
+			}
+		</style>
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+		<!--[if lt IE 9]>
+		<script src="../../dist/js/vendor/html5shiv.js"></script>
+		<script src="../../dist/js/vendor/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-lg" role="navigation">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
+						<span class="sr-only">Toggle navigation</span>
+					</button>
+					<a class="navbar-brand" href="../index.html">Chopsticks.Co</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="navbar-collapse collapse" id="navbar-collapse-2">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="products.html">Products</a>
+						</li>
+						<li>
+							<a href="order.php">Order</a>
+						</li>
+						<li>
+							<a href="shippingstatus.html">Shipping status</a>
+						</li>
+						<li>
+							<a href="contactus.html">Contact us</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="login.html">Log in</a>
+						</li>
+						<li>
+							<a href="createaccount.html">Create account</a>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4"></div>
+					<div class="col-sm-4">
+
+						<form style="width: 300px" name="signup_form" method="post" action="../admin/createaccount.php">
+							<div class="input-group">
+								<span class="input-group-addon">Email</span>
+								<input type="text" name="email" class="form-control" placeholder="email address">
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon">Password</span>
+								<input type="password" name="password" class="form-control" placeholder="passwrod">
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon">First Name</span>
+								<input type="text" name="firstname" class="form-control" placeholder="first name">
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon">Last Name</span>
+								<input type="text" name="lastname" class="form-control" placeholder="last name">
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon">Company</span>
+								<input type="text" name="company" class="form-control" placeholder="company name">
+							</div>
+
+							<div class="input-group">
+								<span class="input-group-addon">Phone</span>
+								<input type="text" name="phone" class="form-control" placeholder="phone number">
+							</div>
+
+							<div class="input-group">
+								<span class="input-group-addon">Address</span>
+								<input type="text" name="address" class="form-control" placeholder="address">
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon">City</span>
+								<input type="text" name="city" class="form-control" placeholder="city">
+							</div>
+							<div class="input-group">
+								<span class="input-group-addon">Zip Code</span>
+								<input type="text" name="zipcode" class="form-control" placeholder="Zipcode">
+							</div>
+
+							<div class="input-group">
+								<span class="input-group-addon">State</span>
+								<select name="state" class="form-control" style="width:198px;">
+									<option>AL</option>
+									<option>AK</option>
+									<option>AZ</option>
+									<option>AR</option>
+									<option>CA</option>
+									<option>CO</option>
+									<option>CT</option>
+									<option>DE</option>
+									<option>FL</option>
+									<option>GA</option>
+									<option>HI</option>
+									<option>ID</option>
+									<option>IL</option>
+									<option>IN</option>
+									<option>IA</option>
+									<option>KS</option>
+									<option>KY</option>
+									<option>LA</option>
+									<option>ME</option>
+									<option>MD</option>
+									<option>MA</option>
+									<option>MI</option>
+									<option>MN</option>
+									<option>MS</option>
+									<option>MO</option>
+									<option>MT</option>
+									<option>NE</option>
+									<option>NV</option>
+									<option>NH</option>
+									<option>NJ</option>
+									<option>NM</option>
+									<option>NY</option>
+									<option>NC</option>
+									<option>ND</option>
+									<option>OH</option>
+									<option>OK</option>
+									<option>OR</option>
+									<option>PA</option>
+									<option>RI</option>
+									<option>SC</option>
+									<option>SD</option>
+									<option>N</option>
+									<option>TX</option>
+									<option>UT</option>
+									<option>VT</option>
+									<option>VA</option>
+									<option>WA</option>
+									<option>WV</option>
+									<option>WI</option>
+									<option>WY</option>
+								</select>
+							</div>
+							<!--
+							<div class="input-group">
+							<span class="input-group-addon">State</span>
+							<input type="text" name="state" class="form-control" placeholder="State">
+							</div>
+							*/
+							-->
+							<input type="submit" class="btn btn-default" style="float:right" value="Create">
+
+						</form>
+
+					</div>
+
+					<div class="col-sm-4"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<footer></footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="../dist/js/vendor/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="../dist/js/flat-ui-pro.min.js"></script>
+
+	</body>
+</html>

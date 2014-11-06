@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8"/>
+        <title>Chopsticks.co Admin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Loading Bootsrap -->
+        <link href="../dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Loading Flat UI -->
+        <link href="../dist/css/flat-ui-pro.css" rel="stylesheet">
+
+        <link rel="shortcut icon" href="../dist/img/favicon.ico">
+
+    
+        <style>
+            .navbar{
+                padding-top:50px;
+            }
+
+            .input-group{
+                padding-bottom:20px;
+            }
+        </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="../../dist/js/vendor/html5shiv.js"></script>
+      <script src="../../dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <nav class="navbar navbar-lg" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <a class="navbar-brand" href="index.html">Chopsticks.Co Admin</a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+
+                    <form class="formDiv" name="signup_form" method="post" action="login_check.php" >
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon">ID</span>
+                            <input type="text" class="form-control" name="email" placeholder="Username">
+                        </div>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon">Password</span>
+                            <input type="password" name="password" class="form-control" placeholder="Password">
+                        </div>
+                        <input type="submit" class="btn btn-default" style="float:right" value="Login">
+                    </form> 
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+
+        <!-- actual contents 
+        <div id="wrapper">
+            <div class="container">
+                <div class="row">
+                     <form name="signup_form" method="post" action="signup_check.php" >
+                        ID : <input type="text" name="user_email" /><br >
+                        password : <input type="password" name="user_pass" /><br >
+                        <input type="submit" value="로그인">
+                    </form>    
+                
+            
+            <script>
+                function print(){
+                    alert('성공');
+                }
+            </script>
+                
+            </div>
+        </div>
+        -->
+        
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../dist/js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../dist/js/flat-ui-pro.min.js"></script>
+
+
+    </body>
+</html>
